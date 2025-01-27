@@ -24,10 +24,11 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* Removed display: flex to avoid alignment issues */
+  /* Removed place-items: center to avoid centering all content */
   min-width: 320px;
-  min-height: 100vh;
+  /* Adjusted or removed min-height for better alignment */
+  min-height: auto;
 }
 
 h1 {
@@ -60,9 +61,4 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+    color: #747
